@@ -7,7 +7,8 @@
    1. `pynput`
    2. `mouse`
    3. `PIL`
-3. Using Python or any IDE, run `main.py`. The most traditional way is by opening command prompt in the same folder as `main.py` (use CD), and then running the command `py main.py`.
+3. Download the stuff in this repo by cloning it. If your downloading it by `zip`, export everything to an empty folder.
+4. Using Python or any IDE, run `main.py`. The most traditional way is by opening command prompt in the same folder as `main.py` (use CD), and then running the command `py main.py`.
 
 No `bat` file for your own safety
 
@@ -20,7 +21,7 @@ Please read the rest of this document before running this program. A sample imag
 Set your variables in `variables.json`.
 
 - `path_to_img`: the path to the image relative to `main.py`.
-- `tolerance`: how tolerant the program is to detecting "black" parts in the image.
+- `tolerance`: how tolerant the program is to detecting "black" parts in the image from a scale of 0-255.
 - `p_tolerance`: increasing this makes the program faster but makes the output image more ugly.
 - `path_to_img`: relative to this `.ipynb` notebook.
 - `img_start_location`: the coords on your screen (FIRST MONITOR IF YOU'RE USING MULTIPLE MONITORS) where the drawing starts
@@ -28,6 +29,8 @@ Set your variables in `variables.json`.
 - `finish_scale`: directly multiplies `img_scale`... kind of. It is faster to set `finish_scale` to 2 and `img_scale` to `(250, 250)` then set `finish_scale` to 1 and `img_scale` to `(500, 500)` - actually, it doesn't really speed it up by 4x.
 
 ![Image print location](ImgSizeGuide.jpg)]
+
+There is a sample image (`nya.png`) that is made by me if you want to test this program.
 
 ## Declare your variables above.
 You should do it before running the program. Keep in mind that when we talk about coordinates, for coordinates `(x, y)`, `x` is always positive to the right and `y` is always positive **downwards** - this may be different than what you have learned in math class.
