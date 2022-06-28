@@ -2,7 +2,7 @@
 
 ## Running this
 
-1. Install Python 3.something
+1. Install Python 3.10 or later. This program was made to work with Python 3.10
 2. `pip install` the following packages:
    1. `pynput`
    2. `mouse`
