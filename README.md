@@ -54,3 +54,7 @@ Always your "first" monitor. You can check which monitor is your first monitor b
 
 ![image](https://user-images.githubusercontent.com/31808925/176094893-311ce295-22b8-464c-a3ec-bf955ed988d1.png)
 
+You can change the monitor you want this program to draw on by going to Windows 10 settings > system > display.
+
+![image](https://user-images.githubusercontent.com/31808925/176095368-309ab8cc-5254-4dea-9896-73f6deb84c16.png)
+
