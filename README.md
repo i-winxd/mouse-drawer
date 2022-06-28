@@ -43,4 +43,5 @@ The coordinates are ALWAYS the position of the pixels on your Windows 10 UI. Cha
 
 Always your "first" monitor. You can check which monitor is your first monitor by the one where you can see `Type here to Search` on it, for Windows. If you can see this on your monitor, this is the one this program will draw on.
 
-![img.png](img.png)
+![image](https://user-images.githubusercontent.com/31808925/176094893-311ce295-22b8-464c-a3ec-bf955ed988d1.png)
+
