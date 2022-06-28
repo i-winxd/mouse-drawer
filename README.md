@@ -28,12 +28,21 @@ Set your variables in `variables.json`.
 - `img_scale`: this can stretch the image. How large the image drawn by this program is.
 - `finish_scale`: directly multiplies `img_scale`... kind of. It is faster to set `finish_scale` to 2 and `img_scale` to `(250, 250)` then set `finish_scale` to 1 and `img_scale` to `(500, 500)` - actually, it doesn't really speed it up by 4x.
 
+Keep in mind that when we talk about coordinates, for coordinates `(x, y)`, `x` is always positive to the right and `y` is always positive **downwards** - this may be different than what you have learned in math class.
+
 ![Image print location](ImgSizeGuide.jpg)
 
 There is a sample image (`nya.png`) that is made by me if you want to test this program.
 
-## Declare your variables above.
-You should do it before running the program. Keep in mind that when we talk about coordinates, for coordinates `(x, y)`, `x` is always positive to the right and `y` is always positive **downwards** - this may be different than what you have learned in math class.
+The coords are based on the pixels of your screen. Adjusting this
+
+![image](https://user-images.githubusercontent.com/31808925/176095225-37a8d86f-05c3-4157-8a55-4be20fd0f15b.png)
+
+will not affect the program at all, but changing this
+
+![image](https://user-images.githubusercontent.com/31808925/176095280-e1363d93-5bab-4462-8e16-65a8d06c6583.png)
+
+will.
 
 ## Run the cell below to run the program.
 
