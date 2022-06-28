@@ -28,7 +28,7 @@ Set your variables in `variables.json`.
 - `img_scale`: this can stretch the image. How large the image drawn by this program is.
 - `finish_scale`: directly multiplies `img_scale`... kind of. It is faster to set `finish_scale` to 2 and `img_scale` to `(250, 250)` then set `finish_scale` to 1 and `img_scale` to `(500, 500)` - actually, it doesn't really speed it up by 4x.
 
-![Image print location](ImgSizeGuide.jpg)]
+![Image print location](ImgSizeGuide.jpg)
 
 There is a sample image (`nya.png`) that is made by me if you want to test this program.
 
