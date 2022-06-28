@@ -20,7 +20,7 @@ Please read the rest of this document before running this program. A sample imag
 
 Set your variables in `variables.json`.
 
-- `path_to_img`: the path to the image relative to `main.py`.
+- `path_to_img`: the path to the image relative to `main.py`. **THE FILE SHOULD BE PNG/JPG/JPEG**
 - `tolerance`: how tolerant the program is to detecting "black" parts in the image from a scale of 0-255.
 - `p_tolerance`: increasing this makes the program faster but makes the output image more ugly.
 - `path_to_img`: relative to this `.ipynb` notebook.
