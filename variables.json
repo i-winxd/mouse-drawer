@@ -1,0 +1,15 @@
+{
+  "tolerance": 30,
+  "p_tolerance": 4,
+  "path_to_img": "nya.png",
+  "img_scale": [
+    500,
+    500
+  ],
+  "img_start_position": [
+    200,
+    200
+  ],
+  "finish_scale": 1,
+  "interlacing": 1
+}
