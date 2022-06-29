@@ -1,5 +1,7 @@
 # The mouse project
 
+Feed it an image and it will try to draw it on your first monitor wherever you want. This program detects the black parts of an image.
+
 ## Running this
 
 1. Install Python 3.10 or later. This program was made to work with Python 3.10
@@ -10,7 +12,7 @@
 3. Download the stuff in this repo by cloning it. If your downloading it by `zip`, export everything to an empty folder.
 4. Using Python or any IDE, run `main.py`. The most traditional way is by opening command prompt in the same folder as `main.py` (use CD), and then running the command `py main.py`.
 
-No `bat` file for your own safety
+No `bat` file for your own safety. While I can confirm I didn't inject anything sussy in my code, please check if the packages you're installing aren't sus.
 
 Please read the rest of this document before running this program. A sample image is included, though.
 
