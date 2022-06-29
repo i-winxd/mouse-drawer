@@ -26,7 +26,7 @@ Set your variables in `variables.json`.
 - `tolerance`: how tolerant the program is to detecting "black" parts in the image from a scale of 0-255.
 - `p_tolerance`: increasing this makes the program faster but makes the output image more ugly.
 - `path_to_img`: relative to this `.ipynb` notebook.
-- `img_start_location`: the coords on your screen (FIRST MONITOR IF YOU'RE USING MULTIPLE MONITORS) where the drawing starts
+- `img_start_location`: the coords on your screen (FIRST MONITOR IF YOU'RE USING MULTIPLE MONITORS) where the drawing starts - the top left corner
 - `img_scale`: this can stretch the image. How large the image drawn by this program is.
 - `finish_scale`: directly multiplies `img_scale`... kind of. It is faster to set `finish_scale` to 2 and `img_scale` to `(250, 250)` then set `finish_scale` to 1 and `img_scale` to `(500, 500)` - actually, it doesn't really speed it up by 4x.
 
