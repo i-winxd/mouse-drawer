@@ -66,7 +66,7 @@ def run_mouse_better(locations: list[tuple[int, int]],
     if p_tol == 0:
         p_tol = 1
     # Everything should be sorted. Look for runs.
-    new_locations: list[SingleClick | MoveClick] = []
+    new_locations: list[Union[SingleClick, MoveClick]] = []
     p_location = [-88, -88]
     run_start = [0, 0]
     run_mode = False
